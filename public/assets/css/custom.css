@@ -1,0 +1,117 @@
+/* =========================
+   FULL DARK THEME
+   PERPUSTAKAAN MINI
+========================= */
+
+:root {
+    --primary-blue: #0d47a1;
+    --secondary-blue: #1565c0;
+    --dark-blue: #061830;
+    --black-blue: #020b18;
+    --card-dark: #0b1220;
+}
+
+/* BODY */
+body {
+    background-color: var(--black-blue) !important;
+}
+
+/* CONTENT AREA */
+.main-content {
+    background-color: var(--black-blue) !important;
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar-bg,
+.main-navbar {
+    background: linear-gradient(90deg, var(--dark-blue), var(--primary-blue)) !important;
+}
+
+/* SIDEBAR */
+.main-sidebar {
+    background-color: #010814 !important;
+}
+
+.main-sidebar .sidebar-brand a,
+.main-sidebar .sidebar-menu li a,
+.main-sidebar .menu-header {
+    color: white !important;
+}
+
+/* ACTIVE MENU */
+.main-sidebar .sidebar-menu li.active a {
+    background-color: rgba(13, 71, 161, 0.35) !important;
+    color: #4dabff !important;
+    border-radius: 8px;
+}
+
+.main-sidebar .sidebar-menu li a:hover {
+    background-color: rgba(13, 71, 161, 0.15) !important;
+}
+
+/* SECTION HEADER */
+.section-header {
+    background-color: var(--card-dark) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.section-header h1 {
+    color: white !important;
+}
+
+/* CARD */
+.card {
+    background-color: var(--card-dark) !important;
+    border: 1px solid #13315c !important;
+    border-radius: 12px;
+    color: white !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.35);
+}
+
+/* TEXT CARD */
+.card .card-header h4,
+.card .card-body,
+.card .card-wrap {
+    color: white !important;
+}
+
+/* CARD ICON */
+.bg-primary {
+    background-color: #0d47a1 !important;
+}
+
+.bg-success {
+    background-color: #1565c0 !important;
+}
+
+.bg-warning {
+    background-color: #1976d2 !important;
+}
+
+.bg-danger {
+    background-color: #42a5f5 !important;
+}
+
+/* BUTTON */
+.btn-primary {
+    background-color: var(--primary-blue) !important;
+    border-color: var(--primary-blue) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-blue) !important;
+}
+
+/* FOOTER */
+.main-footer {
+    background-color: var(--card-dark) !important;
+    color: white !important;
+    border-top: 1px solid #13315c !important;
+}
+
+/* TEXT */
+h1, h2, h3, h4, h5, h6, p, span, div {
+    color: inherit;
+}
