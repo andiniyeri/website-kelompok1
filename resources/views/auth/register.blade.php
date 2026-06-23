@@ -40,7 +40,7 @@
             </div>
 
              <!-- Language Switcher -->
-            <div class="text-center mb-3">
+            {{-- <div class="text-center mb-3">
                 <div class="dropdown d-inline-block">
                     <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
                         <i class="fas fa-globe"></i>
@@ -55,7 +55,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="card card-primary">
               <div class="card-header"><h4>{{ __('Register') }}</h4></div>

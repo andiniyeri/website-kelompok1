@@ -12,7 +12,7 @@
         </div>
 
         <ul class="sidebar-menu">
-            <li class="menu-header">{{ __('MAIN MENU') }}</li>
+            <li class="menu-header">MAIN MENU</li>
 
             {{-- ADMIN MENU --}}
             @if(session('role') == 'admin')
@@ -20,14 +20,14 @@
                 <li class="{{ Route::is('admin.dashboard') ? 'active' : '' }}">
                     <a class="nav-link" href="{{ route('admin.dashboard') }}">
                         <i class="fas fa-fire"></i>
-                        <span>{{ __('Dashboard') }}</span>
+                        <span>Dashboard</span>
                     </a>
                 </li>
 
                 <li class="{{ Route::is('books*') ? 'active' : '' }}">
                         <a class="nav-link" href="{{ route('books.index') }}">
                         <i class="fas fa-book"></i>
-                        <span>{{ __('Books') }}</span>
+                        <span>Buku</span>
                     </a>
 </li>
 

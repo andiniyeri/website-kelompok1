@@ -30,12 +30,14 @@
      style="width:140px; height:140px; border-radius:50%; object-fit:cover;">
 </div>
             </div>
-            <div class="text-center mb-4">
-    <h5>Sistem Manajemen Perpustakaan Mini</h5>
+<div class="text-center mb-4">
+    <h3 class="font-weight-bold text-white">
+        Sistem Manajemen Perpustakaan Mini
+    </h3>
 </div>
 
                      <!-- Language Switcher -->
-            <div class="text-center mb-3">
+            {{-- <div class="text-center mb-3">
                 <div class="dropdown d-inline-block">
                     <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
                         <i class="fas fa-globe"></i>
@@ -50,7 +52,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="card card-primary">
               <div class="card-header"><h4>{{__('login Perpustakaan') }}</h4></div>
